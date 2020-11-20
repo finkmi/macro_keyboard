@@ -1,4 +1,815 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L promicro:ProMicro U?
+U 1 1 5FB8248F
+P 8800 3850
+F 0 "U?" H 8800 4887 60  0000 C CNN
+F 1 "ProMicro" H 8800 4781 60  0000 C CNN
+F 2 "" H 8900 2800 60  0000 C CNN
+F 3 "" H 8900 2800 60  0000 C CNN
+	1    8800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5FB87016
+P 8000 1000
+F 0 "RV?" V 7793 1000 50  0000 C CNN
+F 1 "R_POT" V 7884 1000 50  0000 C CNN
+F 2 "" H 8000 1000 50  0001 C CNN
+F 3 "~" H 8000 1000 50  0001 C CNN
+	1    8000 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5FB8A702
+P 8500 1000
+F 0 "RV?" V 8293 1000 50  0000 C CNN
+F 1 "R_POT" V 8384 1000 50  0000 C CNN
+F 2 "" H 8500 1000 50  0001 C CNN
+F 3 "~" H 8500 1000 50  0001 C CNN
+	1    8500 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5FB8D136
+P 9000 1000
+F 0 "RV?" V 8793 1000 50  0000 C CNN
+F 1 "R_POT" V 8884 1000 50  0000 C CNN
+F 2 "" H 9000 1000 50  0001 C CNN
+F 3 "~" H 9000 1000 50  0001 C CNN
+	1    9000 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5FB8DD1E
+P 9500 1000
+F 0 "RV?" V 9293 1000 50  0000 C CNN
+F 1 "R_POT" V 9384 1000 50  0000 C CNN
+F 2 "" H 9500 1000 50  0001 C CNN
+F 3 "~" H 9500 1000 50  0001 C CNN
+	1    9500 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5FB8E829
+P 10000 1000
+F 0 "RV?" V 9793 1000 50  0000 C CNN
+F 1 "R_POT" V 9884 1000 50  0000 C CNN
+F 2 "" H 10000 1000 50  0001 C CNN
+F 3 "~" H 10000 1000 50  0001 C CNN
+	1    10000 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBAEB69
+P 1950 3200
+F 0 "D?" V 1996 3120 50  0000 R CNN
+F 1 "1N4148" V 1905 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1950 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1950 3200 50  0001 C CNN
+	1    1950 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBB5D06
+P 2950 3200
+F 0 "D?" V 2996 3120 50  0000 R CNN
+F 1 "1N4148" V 2905 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 3200 50  0001 C CNN
+	1    2950 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBB671D
+P 3950 3200
+F 0 "D?" V 3996 3120 50  0000 R CNN
+F 1 "1N4148" V 3905 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3950 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3950 3200 50  0001 C CNN
+	1    3950 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBB7303
+P 4950 3200
+F 0 "D?" V 4996 3120 50  0000 R CNN
+F 1 "1N4148" V 4905 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4950 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4950 3200 50  0001 C CNN
+	1    4950 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBB8425
+P 5950 3200
+F 0 "D?" V 5996 3120 50  0000 R CNN
+F 1 "1N4148" V 5905 3120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 3025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 3200 50  0001 C CNN
+	1    5950 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBB948B
+P 5950 4200
+F 0 "D?" V 5996 4120 50  0000 R CNN
+F 1 "1N4148" V 5905 4120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 4200 50  0001 C CNN
+	1    5950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBBA41B
+P 4950 4200
+F 0 "D?" V 4996 4120 50  0000 R CNN
+F 1 "1N4148" V 4905 4120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4950 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4950 4200 50  0001 C CNN
+	1    4950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBBB1AE
+P 3950 4200
+F 0 "D?" V 3996 4120 50  0000 R CNN
+F 1 "1N4148" V 3905 4120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3950 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBBBD70
+P 2950 4200
+F 0 "D?" V 2996 4120 50  0000 R CNN
+F 1 "1N4148" V 2905 4120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 4200 50  0001 C CNN
+	1    2950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBBD000
+P 1950 4200
+F 0 "D?" V 1996 4120 50  0000 R CNN
+F 1 "1N4148" V 1905 4120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1950 4025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1950 4200 50  0001 C CNN
+	1    1950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBBD9F7
+P 1950 5200
+F 0 "D?" V 1996 5120 50  0000 R CNN
+F 1 "1N4148" V 1905 5120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1950 5025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1950 5200 50  0001 C CNN
+	1    1950 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBBE6A8
+P 2950 5200
+F 0 "D?" V 2996 5120 50  0000 R CNN
+F 1 "1N4148" V 2905 5120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 5025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 5200 50  0001 C CNN
+	1    2950 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBBF1D1
+P 3950 5200
+F 0 "D?" V 3996 5120 50  0000 R CNN
+F 1 "1N4148" V 3905 5120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3950 5025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3950 5200 50  0001 C CNN
+	1    3950 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBBFC7C
+P 4950 5200
+F 0 "D?" V 4996 5120 50  0000 R CNN
+F 1 "1N4148" V 4905 5120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4950 5025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4950 5200 50  0001 C CNN
+	1    4950 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC05CE
+P 5950 5200
+F 0 "D?" V 5996 5120 50  0000 R CNN
+F 1 "1N4148" V 5905 5120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 5025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 5200 50  0001 C CNN
+	1    5950 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC1210
+P 5950 6200
+F 0 "D?" V 5996 6120 50  0000 R CNN
+F 1 "1N4148" V 5905 6120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 6025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 6200 50  0001 C CNN
+	1    5950 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC2023
+P 4950 6200
+F 0 "D?" V 4996 6120 50  0000 R CNN
+F 1 "1N4148" V 4905 6120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4950 6025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4950 6200 50  0001 C CNN
+	1    4950 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC2C91
+P 3950 6200
+F 0 "D?" V 3996 6120 50  0000 R CNN
+F 1 "1N4148" V 3905 6120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3950 6025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3950 6200 50  0001 C CNN
+	1    3950 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC3B68
+P 2950 6200
+F 0 "D?" V 2996 6120 50  0000 R CNN
+F 1 "1N4148" V 2905 6120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 6025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 6200 50  0001 C CNN
+	1    2950 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC48DF
+P 1950 6200
+F 0 "D?" V 1996 6120 50  0000 R CNN
+F 1 "1N4148" V 1905 6120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1950 6025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1950 6200 50  0001 C CNN
+	1    1950 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC555C
+P 1950 2200
+F 0 "D?" V 1996 2120 50  0000 R CNN
+F 1 "1N4148" V 1905 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 1950 2025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 1950 2200 50  0001 C CNN
+	1    1950 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC69B4
+P 2950 2200
+F 0 "D?" V 2996 2120 50  0000 R CNN
+F 1 "1N4148" V 2905 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2950 2025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 2950 2200 50  0001 C CNN
+	1    2950 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC73E4
+P 3950 2200
+F 0 "D?" V 3996 2120 50  0000 R CNN
+F 1 "1N4148" V 3905 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3950 2025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 3950 2200 50  0001 C CNN
+	1    3950 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC7EE7
+P 4950 2200
+F 0 "D?" V 4996 2120 50  0000 R CNN
+F 1 "1N4148" V 4905 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4950 2025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4950 2200 50  0001 C CNN
+	1    4950 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D?
+U 1 1 5FBC8D57
+P 5950 2200
+F 0 "D?" V 5996 2120 50  0000 R CNN
+F 1 "1N4148" V 5905 2120 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 2025 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 2200 50  0001 C CNN
+	1    5950 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FCB18B8
+P 9750 3400
+F 0 "#PWR?" H 9750 3250 50  0001 C CNN
+F 1 "+5V" H 9765 3573 50  0000 C CNN
+F 2 "" H 9750 3400 50  0001 C CNN
+F 3 "" H 9750 3400 50  0001 C CNN
+	1    9750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCB4E3A
+P 10050 3200
+F 0 "#PWR?" H 10050 2950 50  0001 C CNN
+F 1 "GND" H 10055 3027 50  0000 C CNN
+F 2 "" H 10050 3200 50  0001 C CNN
+F 3 "" H 10050 3200 50  0001 C CNN
+	1    10050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3200 10050 3200
+Wire Wire Line
+	9500 3400 9750 3400
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCC6797
+P 1750 2050
+F 0 "SW?" H 1750 2335 50  0000 C CNN
+F 1 "CherryMX" H 1750 2244 50  0000 C CNN
+F 2 "" H 1750 2075 50  0001 C CNN
+F 3 "" H 1750 2075 50  0001 C CNN
+	1    1750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCC85E3
+P 2750 2050
+F 0 "SW?" H 2750 2335 50  0000 C CNN
+F 1 "CherryMX" H 2750 2244 50  0000 C CNN
+F 2 "" H 2750 2075 50  0001 C CNN
+F 3 "" H 2750 2075 50  0001 C CNN
+	1    2750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCC8EBB
+P 3750 2050
+F 0 "SW?" H 3750 2335 50  0000 C CNN
+F 1 "CherryMX" H 3750 2244 50  0000 C CNN
+F 2 "" H 3750 2075 50  0001 C CNN
+F 3 "" H 3750 2075 50  0001 C CNN
+	1    3750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCC98A5
+P 4750 2050
+F 0 "SW?" H 4750 2335 50  0000 C CNN
+F 1 "CherryMX" H 4750 2244 50  0000 C CNN
+F 2 "" H 4750 2075 50  0001 C CNN
+F 3 "" H 4750 2075 50  0001 C CNN
+	1    4750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCCA104
+P 5750 2050
+F 0 "SW?" H 5750 2335 50  0000 C CNN
+F 1 "CherryMX" H 5750 2244 50  0000 C CNN
+F 2 "" H 5750 2075 50  0001 C CNN
+F 3 "" H 5750 2075 50  0001 C CNN
+	1    5750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCCAAFC
+P 1750 3050
+F 0 "SW?" H 1750 3335 50  0000 C CNN
+F 1 "CherryMX" H 1750 3244 50  0000 C CNN
+F 2 "" H 1750 3075 50  0001 C CNN
+F 3 "" H 1750 3075 50  0001 C CNN
+	1    1750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCCCE76
+P 2750 3050
+F 0 "SW?" H 2750 3335 50  0000 C CNN
+F 1 "CherryMX" H 2750 3244 50  0000 C CNN
+F 2 "" H 2750 3075 50  0001 C CNN
+F 3 "" H 2750 3075 50  0001 C CNN
+	1    2750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCCD6A4
+P 3700 3050
+F 0 "SW?" H 3700 3335 50  0000 C CNN
+F 1 "CherryMX" H 3700 3244 50  0000 C CNN
+F 2 "" H 3700 3075 50  0001 C CNN
+F 3 "" H 3700 3075 50  0001 C CNN
+	1    3700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCCDEE7
+P 4750 3050
+F 0 "SW?" H 4750 3335 50  0000 C CNN
+F 1 "CherryMX" H 4750 3244 50  0000 C CNN
+F 2 "" H 4750 3075 50  0001 C CNN
+F 3 "" H 4750 3075 50  0001 C CNN
+	1    4750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCCE794
+P 5750 3050
+F 0 "SW?" H 5750 3335 50  0000 C CNN
+F 1 "CherryMX" H 5750 3244 50  0000 C CNN
+F 2 "" H 5750 3075 50  0001 C CNN
+F 3 "" H 5750 3075 50  0001 C CNN
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCCF174
+P 1750 4050
+F 0 "SW?" H 1750 4335 50  0000 C CNN
+F 1 "CherryMX" H 1750 4244 50  0000 C CNN
+F 2 "" H 1750 4075 50  0001 C CNN
+F 3 "" H 1750 4075 50  0001 C CNN
+	1    1750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD1343
+P 2750 4050
+F 0 "SW?" H 2750 4335 50  0000 C CNN
+F 1 "CherryMX" H 2750 4244 50  0000 C CNN
+F 2 "" H 2750 4075 50  0001 C CNN
+F 3 "" H 2750 4075 50  0001 C CNN
+	1    2750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD1A97
+P 3750 4050
+F 0 "SW?" H 3750 4335 50  0000 C CNN
+F 1 "CherryMX" H 3750 4244 50  0000 C CNN
+F 2 "" H 3750 4075 50  0001 C CNN
+F 3 "" H 3750 4075 50  0001 C CNN
+	1    3750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD22BD
+P 4750 4050
+F 0 "SW?" H 4750 4335 50  0000 C CNN
+F 1 "CherryMX" H 4750 4244 50  0000 C CNN
+F 2 "" H 4750 4075 50  0001 C CNN
+F 3 "" H 4750 4075 50  0001 C CNN
+	1    4750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD2B79
+P 5750 4050
+F 0 "SW?" H 5750 4335 50  0000 C CNN
+F 1 "CherryMX" H 5750 4244 50  0000 C CNN
+F 2 "" H 5750 4075 50  0001 C CNN
+F 3 "" H 5750 4075 50  0001 C CNN
+	1    5750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD361B
+P 1750 5050
+F 0 "SW?" H 1750 5335 50  0000 C CNN
+F 1 "CherryMX" H 1750 5244 50  0000 C CNN
+F 2 "" H 1750 5075 50  0001 C CNN
+F 3 "" H 1750 5075 50  0001 C CNN
+	1    1750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD5808
+P 2750 5050
+F 0 "SW?" H 2750 5335 50  0000 C CNN
+F 1 "CherryMX" H 2750 5244 50  0000 C CNN
+F 2 "" H 2750 5075 50  0001 C CNN
+F 3 "" H 2750 5075 50  0001 C CNN
+	1    2750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD61C3
+P 3750 5050
+F 0 "SW?" H 3750 5335 50  0000 C CNN
+F 1 "CherryMX" H 3750 5244 50  0000 C CNN
+F 2 "" H 3750 5075 50  0001 C CNN
+F 3 "" H 3750 5075 50  0001 C CNN
+	1    3750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD67E8
+P 4750 5050
+F 0 "SW?" H 4750 5335 50  0000 C CNN
+F 1 "CherryMX" H 4750 5244 50  0000 C CNN
+F 2 "" H 4750 5075 50  0001 C CNN
+F 3 "" H 4750 5075 50  0001 C CNN
+	1    4750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD6FE3
+P 5750 5050
+F 0 "SW?" H 5750 5335 50  0000 C CNN
+F 1 "CherryMX" H 5750 5244 50  0000 C CNN
+F 2 "" H 5750 5075 50  0001 C CNN
+F 3 "" H 5750 5075 50  0001 C CNN
+	1    5750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD77DA
+P 1750 6050
+F 0 "SW?" H 1750 6335 50  0000 C CNN
+F 1 "CherryMX" H 1750 6244 50  0000 C CNN
+F 2 "" H 1750 6075 50  0001 C CNN
+F 3 "" H 1750 6075 50  0001 C CNN
+	1    1750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD89C6
+P 2750 6050
+F 0 "SW?" H 2750 6335 50  0000 C CNN
+F 1 "CherryMX" H 2750 6244 50  0000 C CNN
+F 2 "" H 2750 6075 50  0001 C CNN
+F 3 "" H 2750 6075 50  0001 C CNN
+	1    2750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD8F57
+P 3750 6050
+F 0 "SW?" H 3750 6335 50  0000 C CNN
+F 1 "CherryMX" H 3750 6244 50  0000 C CNN
+F 2 "" H 3750 6075 50  0001 C CNN
+F 3 "" H 3750 6075 50  0001 C CNN
+	1    3750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD96D8
+P 4750 6050
+F 0 "SW?" H 4750 6335 50  0000 C CNN
+F 1 "CherryMX" H 4750 6244 50  0000 C CNN
+F 2 "" H 4750 6075 50  0001 C CNN
+F 3 "" H 4750 6075 50  0001 C CNN
+	1    4750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CherryMX:CherryMX SW?
+U 1 1 5FCD9EB9
+P 5750 6050
+F 0 "SW?" H 5750 6335 50  0000 C CNN
+F 1 "CherryMX" H 5750 6244 50  0000 C CNN
+F 2 "" H 5750 6075 50  0001 C CNN
+F 3 "" H 5750 6075 50  0001 C CNN
+	1    5750 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3350 4950 3350
+Connection ~ 1950 3350
+Wire Wire Line
+	1950 3350 1050 3350
+Connection ~ 2950 3350
+Wire Wire Line
+	2950 3350 1950 3350
+Connection ~ 3950 3350
+Wire Wire Line
+	3950 3350 2950 3350
+Connection ~ 4950 3350
+Wire Wire Line
+	4950 3350 3950 3350
+Wire Wire Line
+	5950 4350 4950 4350
+Connection ~ 1950 4350
+Wire Wire Line
+	1950 4350 1050 4350
+Connection ~ 2950 4350
+Wire Wire Line
+	2950 4350 1950 4350
+Connection ~ 3950 4350
+Wire Wire Line
+	3950 4350 2950 4350
+Connection ~ 4950 4350
+Wire Wire Line
+	4950 4350 3950 4350
+Wire Wire Line
+	5950 5350 4950 5350
+Connection ~ 1950 5350
+Wire Wire Line
+	1950 5350 1050 5350
+Connection ~ 2950 5350
+Wire Wire Line
+	2950 5350 1950 5350
+Connection ~ 3950 5350
+Wire Wire Line
+	3950 5350 2950 5350
+Connection ~ 4950 5350
+Wire Wire Line
+	4950 5350 3950 5350
+Wire Wire Line
+	5950 6350 4950 6350
+Connection ~ 1950 6350
+Wire Wire Line
+	1950 6350 1050 6350
+Connection ~ 2950 6350
+Wire Wire Line
+	2950 6350 1950 6350
+Connection ~ 3950 6350
+Wire Wire Line
+	3950 6350 2950 6350
+Connection ~ 4950 6350
+Wire Wire Line
+	4950 6350 3950 6350
+Wire Wire Line
+	5950 2350 4950 2350
+Connection ~ 1950 2350
+Wire Wire Line
+	1950 2350 1050 2350
+Connection ~ 2950 2350
+Wire Wire Line
+	2950 2350 1950 2350
+Connection ~ 3950 2350
+Wire Wire Line
+	3950 2350 2950 2350
+Connection ~ 4950 2350
+Wire Wire Line
+	4950 2350 3950 2350
+Wire Wire Line
+	1550 6050 1550 5050
+Connection ~ 1550 2050
+Wire Wire Line
+	1550 2050 1550 1500
+Connection ~ 1550 3050
+Wire Wire Line
+	1550 3050 1550 2050
+Connection ~ 1550 4050
+Wire Wire Line
+	1550 4050 1550 3050
+Connection ~ 1550 5050
+Wire Wire Line
+	1550 5050 1550 4050
+Wire Wire Line
+	2550 6050 2550 5050
+Connection ~ 2550 2050
+Wire Wire Line
+	2550 2050 2550 1500
+Connection ~ 2550 3050
+Wire Wire Line
+	2550 3050 2550 2050
+Connection ~ 2550 4050
+Wire Wire Line
+	2550 4050 2550 3050
+Connection ~ 2550 5050
+Wire Wire Line
+	2550 5050 2550 4050
+Wire Wire Line
+	3550 6050 3550 5050
+Connection ~ 3550 2050
+Wire Wire Line
+	3550 2050 3550 1500
+Connection ~ 3550 4050
+Wire Wire Line
+	3550 4050 3550 2050
+Connection ~ 3550 5050
+Wire Wire Line
+	3550 5050 3550 4050
+Wire Wire Line
+	4550 6050 4550 5050
+Connection ~ 4550 2050
+Wire Wire Line
+	4550 2050 4550 1500
+Connection ~ 4550 3050
+Wire Wire Line
+	4550 3050 4550 2050
+Connection ~ 4550 4050
+Wire Wire Line
+	4550 4050 4550 3050
+Connection ~ 4550 5050
+Wire Wire Line
+	4550 5050 4550 4050
+Wire Wire Line
+	5550 6050 5550 5050
+Connection ~ 5550 2050
+Wire Wire Line
+	5550 2050 5550 1500
+Connection ~ 5550 3050
+Wire Wire Line
+	5550 3050 5550 2050
+Connection ~ 5550 4050
+Wire Wire Line
+	5550 4050 5550 3050
+Connection ~ 5550 5050
+Wire Wire Line
+	5550 5050 5550 4050
+Text GLabel 1050 2350 0    50   Input ~ 0
+ROW0
+Text GLabel 1050 3350 0    50   Input ~ 0
+ROW1
+Text GLabel 1050 4350 0    50   Input ~ 0
+ROW2
+Text GLabel 1050 5350 0    50   Input ~ 0
+ROW3
+Text GLabel 1050 6350 0    50   Input ~ 0
+ROW4
+Text GLabel 1550 1500 0    50   Input ~ 0
+COL0
+Text GLabel 2550 1500 0    50   Input ~ 0
+COL1
+Text GLabel 3550 1500 0    50   Input ~ 0
+COL2
+Text GLabel 4550 1500 0    50   Input ~ 0
+COL3
+Text GLabel 5550 1500 0    50   Input ~ 0
+COL4
 $EndSCHEMATC

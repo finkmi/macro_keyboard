@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name promicro)(type Legacy)(uri ${KIPRJMOD}/ProMicroKiCad/promicro_library/promicro.lib)(options "")(descr ""))
-  (lib (name Cherry_MX)(type Legacy)(uri ${KIPRJMOD}/Cherry-MX-Breakout-Board/libraries/Cherry_MX.lib)(options "")(descr ""))
+  (lib (name CherryMX)(type Legacy)(uri ${KIPRJMOD}/kicad-libraries/symbols/CherryMX.lib)(options "")(descr ""))
 )

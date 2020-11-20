@@ -7,3 +7,6 @@
 [submodule "macro_keyboard_pcb/Cherry-MX-Breakout-Board"]
 	path = macro_keyboard_pcb/Cherry-MX-Breakout-Board
 	url = https://github.com/sszczep/Cherry-MX-Breakout-Board.git
+[submodule "macro_keyboard_pcb/kicad-libraries"]
+	path = macro_keyboard_pcb/kicad-libraries
+	url = https://github.com/sszczep/kicad-libraries.git
