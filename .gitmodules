@@ -1,0 +1,6 @@
+[submodule "macro_keyboard_pcb/ProMicroKiCad"]
+	path = macro_keyboard_pcb/ProMicroKiCad
+	url = https://github.com/Biacco42/ProMicroKiCad.git
+[submodule "macro_keyboard_pcb/Buttons_Switches_Keyboard.pretty"]
+	path = macro_keyboard_pcb/Buttons_Switches_Keyboard.pretty
+	url = https://github.com/KiCad/Buttons_Switches_Keyboard.pretty.git
