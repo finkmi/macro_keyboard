@@ -4,3 +4,6 @@
 [submodule "macro_keyboard_pcb/Buttons_Switches_Keyboard.pretty"]
 	path = macro_keyboard_pcb/Buttons_Switches_Keyboard.pretty
 	url = https://github.com/KiCad/Buttons_Switches_Keyboard.pretty.git
+[submodule "macro_keyboard_pcb/Cherry-MX-Breakout-Board"]
+	path = macro_keyboard_pcb/Cherry-MX-Breakout-Board
+	url = https://github.com/sszczep/Cherry-MX-Breakout-Board.git
