@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
   (lib (name CherryMX)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX.pretty)(options "")(descr ""))
+  (lib (name ror)(type KiCad)(uri ${KIPRJMOD}/ror.pretty)(options "")(descr ""))
 )

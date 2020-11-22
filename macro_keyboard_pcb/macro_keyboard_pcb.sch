@@ -919,25 +919,25 @@ Wire Wire Line
 	10150 1750 10150 1800
 Connection ~ 10150 1750
 Text GLabel 9500 3800 2    50   Input ~ 0
-POT0
-Text GLabel 9500 3700 2    50   Input ~ 0
-POT1
-Text GLabel 9500 3600 2    50   Input ~ 0
-POT2
-Text GLabel 9500 3500 2    50   Input ~ 0
 POT3
+Text GLabel 9500 3700 2    50   Input ~ 0
+POT2
+Text GLabel 9500 3600 2    50   Input ~ 0
+POT1
+Text GLabel 9500 3500 2    50   Input ~ 0
+POT0
 Text GLabel 9500 4200 2    50   Input ~ 0
 POT4
 Text GLabel 8100 3200 0    50   Input ~ 0
-ROW0
+ROW3
 Text GLabel 8100 3100 0    50   Input ~ 0
-ROW1
+ROW4
 Text GLabel 8100 3500 0    50   Input ~ 0
 ROW2
 Text GLabel 8100 3600 0    50   Input ~ 0
-ROW3
+ROW1
 Text GLabel 8100 3700 0    50   Input ~ 0
-ROW4
+ROW0
 Text GLabel 8100 3800 0    50   Input ~ 0
 COL0
 Text GLabel 8100 3900 0    50   Input ~ 0
